@@ -1,0 +1,73 @@
+body {
+  background-color: #343a34;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.container .menuBarContainer {
+  cursor: pointer;
+  /* float: right; */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.menuBar {
+  width: 30px;
+  height: 3px;
+  background-color: lightgray;
+  margin-top: 5px;
+}
+
+.barOne,
+.barTwo,
+.barThree,
+.showDocumentColor {
+  transition: all 0.5s ease;
+}
+
+.plusDeg {
+  transform: rotate(45deg) translate(3px, 8px);
+}
+
+.minusDeg {
+  transform: rotate(-45deg) translate(3px, -8px);
+}
+
+.deleteBarTwo {
+  opacity: 0;
+}
+
+.showDocumentColor {
+  width: 100vw;
+  height: 100vh;
+  background-color: #042a2b;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeDocumentColor {
+  opacity: 1;
+}
+
+.showDocumentColor ul li {
+  list-style: none;
+  color: #35979b;
+  cursor: pointer;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+.showDocumentColor ul li:hover {
+    opacity: 0.4;
+}
