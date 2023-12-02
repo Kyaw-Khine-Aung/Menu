@@ -9,17 +9,21 @@ menuBarContainerTag.addEventListener("click", () => {
   barOneTag.classList.toggle("plusDeg");
   barThreeTag.classList.toggle("minusDeg");
   showDocumentColorTag.classList.toggle("changeDocumentColor");
+  showDocumentColorTag.classList.toggle("moveUpList");
   // if (menuBarContainerTag.classList.contains("isClosed")) {
   //     barTwoTag.classList.remove('deleteBarTwo');
   //     barOneTag.classList.remove("plusDeg");
   //     barThreeTag.classList.remove("minusDeg")
-  //     showDocumentColorTag.classList.remove("changeDocumentColor")
-  //     menuBarContainerTag.classList.remove("isClosed")
+  //     showDocumentColorTag.classList.remove("changeDocumentColor");
+  //     menuBarContainerTag.classList.remove("isClosed");
+  //     showDocumentColorTag.classList.remove("moveUpList");
+
   // }else {
   //     barTwoTag.classList.add('deleteBarTwo');
   //     barOneTag.classList.add("plusDeg");
   //     barThreeTag.classList.add("minusDeg");
-  //     showDocumentColorTag.classList.add("changeDocumentColor")
+  //     showDocumentColorTag.classList.add("changeDocumentColor");
   //     menuBarContainerTag.classList.add("isClosed");
-  // }
+  //     showDocumentColorTag.classList.add("moveUpList");
+  //  }
 });

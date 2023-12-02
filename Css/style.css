@@ -56,6 +56,10 @@ body {
   align-items: center;
 }
 
+.moveUpList {
+  transform: translateY(-15px);
+}
+
 .changeDocumentColor {
   opacity: 1;
 }
